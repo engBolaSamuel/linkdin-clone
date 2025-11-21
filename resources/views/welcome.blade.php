@@ -177,5 +177,8 @@
                 </div>
             </div>
         </div>
+        <div class="flex items-center justify-center h-64">
+            <!-- Your content here -->
+        </div>
     </body>
 </html>
