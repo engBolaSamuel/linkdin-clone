@@ -1,0 +1,29 @@
+/* resources/css/custom-rtl.css */
+input.rtl-input {
+    text-align: right !important;
+    direction: rtl !important;
+}
+
+input.rtl-input::placeholder {
+    text-align: right !important;
+    direction: rtl !important;
+    opacity: 1 !important;
+    color: #9ca3af !important; /* لون الـ placeholder الافتراضي */
+}
+
+input.rtl-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-align: right !important;
+    direction: rtl !important;
+}
+input.rtl-input::-moz-placeholder { /* Firefox 19+ */
+    text-align: right !important;
+    direction: rtl !important;
+}
+input.rtl-input:-ms-input-placeholder { /* IE 10+ */
+    text-align: right !important;
+    direction: rtl !important;
+}
+input.rtl-input:-moz-placeholder { /* Firefox 18- */
+    text-align: right !important;
+    direction: rtl !important;
+}
